@@ -28,7 +28,7 @@ export class AppFlyTo implements ComponentInterface {
 
     // Last
     const flyToPosition = flyTo.getBoundingClientRect();
-    clonedElement.style.cssText = `position: fixed; top: ${flyToPosition.top}px; left: ${flyToPosition.left}px; height: 50px; width: auto;`;
+    clonedElement.style.cssText = `position: fixed; top: ${flyToPosition.top}px; left: ${flyToPosition.left}px; height: 50px; width: 50px;`;
 
     const last = clonedElement.getBoundingClientRect();
 
